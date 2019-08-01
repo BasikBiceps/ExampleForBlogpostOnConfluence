@@ -1,0 +1,7 @@
+add_library(NecessaryDll SHARED IMPORTED GLOBAL)
+
+set_target_properties(NecessaryDll
+PROPERTIES
+IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/NecessaryDll.dll"
+IMPORTED_COMMON_LANGUAGE_RUNTIME "CSharp"
+)
